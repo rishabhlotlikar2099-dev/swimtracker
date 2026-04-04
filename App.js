@@ -1467,11 +1467,12 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: '800',
     marginHorizontal: -2,
-    marginTop: 48,
+    marginTop: 0,
+    transform: [{ translateY: 14 }],
   },
   timeSeparatorCompact: {
     fontSize: 25,
-    marginTop: 39,
+    transform: [{ translateY: 10 }],
   },
   dialPreviewText: {
     color: '#9baccc',
